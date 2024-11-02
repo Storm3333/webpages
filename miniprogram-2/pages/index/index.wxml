@@ -1,0 +1,24 @@
+<view class="container">
+  <!-- Header Section -->
+  <view class="header">
+    <view class="header-content">
+      <text class="header-title">兰艺术</text>
+      <text class="header-subtitle">艺术点亮生活</text>
+    </view>
+  </view>
+
+  <!-- Card Section -->
+  <view class="card-container">
+    <view class="card" bindtap="navigateToExpo1">
+      <image src="https://picsum.photos/200" class="card-image" mode="aspectFill" />
+      <text class="card-title">第一个画展</text>
+      <text class="card-description">This is the first feature of the app.</text>
+    </view>
+
+    <view class="card" bindtap="navigateToExpo2">
+      <image src="https://picsum.photos/201" class="card-image" mode="aspectFill" />
+      <text class="card-title">第二个画展</text>
+      <text class="card-description">Explore more about the second feature here.</text>
+    </view>
+  </view>
+</view>

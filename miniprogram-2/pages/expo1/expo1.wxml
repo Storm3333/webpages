@@ -1,0 +1,26 @@
+<!--pages/expo1/expo1.wxml-->
+<view class="page">
+  <!-- Artist Avatar Section -->
+  <view class="avatar-section">
+    <image class="artist-avatar" src="https://picsum.photos/id/237/200/300" mode="aspectFill" />
+    <text class="artist-name">列奥纳多·达·芬奇</text>
+  </view>
+
+  <!-- Centered Description Text -->
+  <text class="page-description">列奥纳多·达·芬奇（意大利语：Leonardo da Vinci，意为“来自芬奇城的列奥纳多”；儒略历1452年4月15日—1519年5月2日）[注 1]，又译达文西，全名列奥纳多·迪·塞尔·皮耶罗·达·芬奇（Leonardo di ser Piero da Vinci，意大利语发音：[leoˈnardo di ˌsɛr ˈpjɛːro da (v)ˈvintʃi] （ⓘ），意为“来自芬奇城的皮耶罗先生的（儿子）列奥纳多”），是意大利文艺复兴时期佛罗伦萨共和国的博学者：在绘画、音乐、建筑、数学、几何学、解剖学、生理学、动物学、植物学、天文学、气象学、地质学、地理学、物理学、光学、力学、发明、土木工程等领域都有显著的成就。这使他成为文艺复兴时期人文主义的代表人物，也是历史上最著名的艺术家之一，与米开朗基罗和拉斐尔并称文艺复兴三杰。小行星3000为纪念达·芬奇而被命名为“列奥纳多”。</text>
+
+  <!-- Card Section -->
+  <view class="card-section">
+    <view class="card" bindtap="navigateToPic1">
+      <image class="card-image" src="https://picsum.photos/200/300" mode="aspectFill" />
+      <text class="card-title">作品一</text>
+    </view>
+
+    <view class="card">
+      <image class="card-image" src="https://picsum.photos/200/300?2" mode="aspectFill" />
+      <text class="card-title">作品二</text>
+    </view>
+    
+    <!-- Add more cards as needed -->
+  </view>
+</view>

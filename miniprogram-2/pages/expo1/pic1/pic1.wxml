@@ -1,0 +1,17 @@
+<view class="page-container">
+  <!-- Custom Play/Pause Button -->
+  <button bindtap="toggleAudio">{{ isPlaying ? '暂停' : '播放' }}</button>
+  
+  <!-- Audio Player (Hidden) -->
+  <audio
+    id="audioPlayer"
+    src= "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" 
+    class="audio-player"
+  ></audio>
+
+  <!-- Painting Description -->
+  <view class="text-container">
+    <text class="painting-title">画作一</text>
+    <text class="painting-description">这是画作一的详细说明...</text>
+  </view>
+</view>
